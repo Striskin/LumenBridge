@@ -29,8 +29,7 @@ Python 3.10+ serves the files locally. No packages, hosting account, API key, or
 | `final/app/corpus.json` | 18 Phase I texts, IDs, owners, versions, categories, and original 12/6 split |
 | `final/evaluation/cases.json` | Labeled recommendation cases and answer checks |
 | `final/evaluation/run.mjs` | Evaluation and consistency checks using the app modules |
-| `final/evidence/` | Full evaluation output and four browser screenshots |
-| `final/deliverables/` | Technical brief and executive presentation |
+| `final/evidence/` | Full evaluation output and usability notes |
 | `phase1/` | Original Python prototype, main Colab notebook, corpus, and tests |
 
 ## Reproduce the measurements
