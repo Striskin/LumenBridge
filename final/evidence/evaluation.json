@@ -1,0 +1,542 @@
+{
+  "summary": {
+    "trainingDocuments": 12,
+    "testDocuments": 6,
+    "accuracy": 1,
+    "macroPrecision": 1,
+    "macroRecall": 1,
+    "recommendationPrecisionAt3": 0.5,
+    "recommendationRecallAt3": 0.9166666666666666,
+    "recommendationHitsAt3": 6,
+    "chatPasses": 4,
+    "graphNodes": 29,
+    "graphEdges": 65
+  },
+  "classificationByCategory": [
+    {
+      "category": "Device Support",
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1,
+      "recall": 1
+    },
+    {
+      "category": "Inclusive Teaching",
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1,
+      "recall": 1
+    },
+    {
+      "category": "Governance",
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1,
+      "recall": 1
+    }
+  ],
+  "classification": [
+    {
+      "id": "D05",
+      "actual": "Device Support",
+      "predicted": "Device Support"
+    },
+    {
+      "id": "D06",
+      "actual": "Device Support",
+      "predicted": "Device Support"
+    },
+    {
+      "id": "T05",
+      "actual": "Inclusive Teaching",
+      "predicted": "Inclusive Teaching"
+    },
+    {
+      "id": "T06",
+      "actual": "Inclusive Teaching",
+      "predicted": "Inclusive Teaching"
+    },
+    {
+      "id": "G05",
+      "actual": "Governance",
+      "predicted": "Governance"
+    },
+    {
+      "id": "G06",
+      "actual": "Governance",
+      "predicted": "Governance"
+    }
+  ],
+  "recommendations": [
+    {
+      "id": "R1",
+      "seed": "D01",
+      "context": "frozen tablet restart and factory reset",
+      "relevant": [
+        "D05"
+      ],
+      "ranked": [
+        {
+          "id": "D05",
+          "title": "Frozen screen recovery",
+          "score": 0.8165707315085933,
+          "similarity": 0.9328073586656958,
+          "contextScore": 0.5453519348086879,
+          "terms": [
+            "frozen",
+            "factory",
+            "reset",
+            "tablet",
+            "restart"
+          ]
+        },
+        {
+          "id": "D06",
+          "title": "Storage repair",
+          "score": 0.2575926232914404,
+          "similarity": 0.29838182373163524,
+          "contextScore": 0.16241782226431917,
+          "terms": [
+            "tablet",
+            "restart",
+            "files",
+            "settings",
+            "repair"
+          ]
+        },
+        {
+          "id": "D03",
+          "title": "Application installation",
+          "score": 0.20268974801197986,
+          "similarity": 0.24173605944369522,
+          "contextScore": 0.11158168800464406,
+          "terms": [
+            "tablet",
+            "restart",
+            "device",
+            "settings",
+            "repair"
+          ]
+        }
+      ],
+      "hits": 1,
+      "precisionAt3": 0.3333333333333333,
+      "recallAt3": 1
+    },
+    {
+      "id": "R2",
+      "seed": "T02",
+      "context": "large text and audio for accessible reading",
+      "relevant": [
+        "T06",
+        "T04"
+      ],
+      "ranked": [
+        {
+          "id": "T06",
+          "title": "Reading adaptation",
+          "score": 0.6668588064832165,
+          "similarity": 0.728626231600548,
+          "contextScore": 0.5227348145427765,
+          "terms": [
+            "large",
+            "text",
+            "reading",
+            "audio",
+            "accessible"
+          ]
+        },
+        {
+          "id": "T04",
+          "title": "Communication choices",
+          "score": 0.3063434032993695,
+          "similarity": 0.39550748469560165,
+          "contextScore": 0.0982938800414945,
+          "terms": [
+            "audio",
+            "pictures",
+            "understanding",
+            "communication",
+            "adapt"
+          ]
+        },
+        {
+          "id": "T01",
+          "title": "Visual lesson planning",
+          "score": 0.285216346235476,
+          "similarity": 0.4074519231935371,
+          "contextScore": 0,
+          "terms": [
+            "offers",
+            "using",
+            "teacher",
+            "understanding",
+            "communication"
+          ]
+        }
+      ],
+      "hits": 2,
+      "precisionAt3": 0.6666666666666666,
+      "recallAt3": 1
+    },
+    {
+      "id": "R3",
+      "seed": "G01",
+      "context": "loan approval and return signature",
+      "relevant": [
+        "G04",
+        "G05"
+      ],
+      "ranked": [
+        {
+          "id": "G05",
+          "title": "Loan return procedure",
+          "score": 0.6803723341154342,
+          "similarity": 0.7195891336693243,
+          "contextScore": 0.5888664684896905,
+          "terms": [
+            "loan",
+            "return",
+            "signature",
+            "approval",
+            "borrower"
+          ]
+        },
+        {
+          "id": "G04",
+          "title": "Inventory audit policy",
+          "score": 0.317032272535159,
+          "similarity": 0.3587868298073149,
+          "contextScore": 0.21960497223346187,
+          "terms": [
+            "loan",
+            "return",
+            "approval",
+            "records",
+            "asset"
+          ]
+        },
+        {
+          "id": "G03",
+          "title": "Access review policy",
+          "score": 0.15874094659206056,
+          "similarity": 0.18131012491378373,
+          "contextScore": 0.10607953050803985,
+          "terms": [
+            "approval",
+            "records",
+            "requires",
+            "staff"
+          ]
+        }
+      ],
+      "hits": 2,
+      "precisionAt3": 0.6666666666666666,
+      "recallAt3": 1
+    },
+    {
+      "id": "R4",
+      "seed": "G02",
+      "context": "expired records and access approval",
+      "relevant": [
+        "G03",
+        "G06"
+      ],
+      "ranked": [
+        {
+          "id": "G06",
+          "title": "Personal data retention",
+          "score": 0.5883410158335176,
+          "similarity": 0.6949250617140739,
+          "contextScore": 0.3396449087788864,
+          "terms": [
+            "expired",
+            "access",
+            "records",
+            "approval",
+            "retention"
+          ]
+        },
+        {
+          "id": "G03",
+          "title": "Access review policy",
+          "score": 0.5257470359100053,
+          "similarity": 0.4888449172660471,
+          "contextScore": 0.6118519794125744,
+          "terms": [
+            "access",
+            "records",
+            "approval",
+            "expired",
+            "document"
+          ]
+        },
+        {
+          "id": "G04",
+          "title": "Inventory audit policy",
+          "score": 0.21801157624355474,
+          "similarity": 0.2392847325759645,
+          "contextScore": 0.16837421146793197,
+          "terms": [
+            "records",
+            "approval",
+            "policy",
+            "document",
+            "checks"
+          ]
+        }
+      ],
+      "hits": 2,
+      "precisionAt3": 0.6666666666666666,
+      "recallAt3": 1
+    },
+    {
+      "id": "R5",
+      "seed": "D03",
+      "context": "application cannot install because storage is full",
+      "relevant": [
+        "D06"
+      ],
+      "ranked": [
+        {
+          "id": "D06",
+          "title": "Storage repair",
+          "score": 0.589891989236436,
+          "similarity": 0.6078694864523754,
+          "contextScore": 0.5479444957325776,
+          "terms": [
+            "application",
+            "cannot",
+            "install",
+            "storage",
+            "after"
+          ]
+        },
+        {
+          "id": "D05",
+          "title": "Frozen screen recovery",
+          "score": 0.19040240152880486,
+          "similarity": 0.27200343075543554,
+          "contextScore": 0,
+          "terms": [
+            "device",
+            "settings",
+            "tablet",
+            "restart",
+            "repair"
+          ]
+        },
+        {
+          "id": "D02",
+          "title": "Wireless connection",
+          "score": 0.18833534559102028,
+          "similarity": 0.22140741783196255,
+          "contextScore": 0.11116717702882166,
+          "terms": [
+            "cannot",
+            "device",
+            "settings",
+            "tablet",
+            "restart"
+          ]
+        }
+      ],
+      "hits": 1,
+      "precisionAt3": 0.3333333333333333,
+      "recallAt3": 1
+    },
+    {
+      "id": "R6",
+      "seed": "T01",
+      "context": "",
+      "relevant": [
+        "T03",
+        "T05"
+      ],
+      "ranked": [
+        {
+          "id": "T05",
+          "title": "Picture-supported lesson",
+          "score": 0.548102183748091,
+          "similarity": 0.548102183748091,
+          "contextScore": 0,
+          "terms": [
+            "inclusive",
+            "picture",
+            "cards",
+            "instructions",
+            "learners"
+          ]
+        },
+        {
+          "id": "T04",
+          "title": "Communication choices",
+          "score": 0.5386325964020583,
+          "similarity": 0.5386325964020583,
+          "contextScore": 0,
+          "terms": [
+            "activity",
+            "inclusive",
+            "instructions",
+            "learners",
+            "each"
+          ]
+        },
+        {
+          "id": "T02",
+          "title": "Accessible reading",
+          "score": 0.4074519231935371,
+          "similarity": 0.4074519231935371,
+          "contextScore": 0,
+          "terms": [
+            "offers",
+            "using",
+            "teacher",
+            "learning",
+            "communication"
+          ]
+        }
+      ],
+      "hits": 1,
+      "precisionAt3": 0.3333333333333333,
+      "recallAt3": 0.5
+    }
+  ],
+  "chatbot": [
+    {
+      "id": "C1",
+      "question": "How do I restart a frozen tablet before a factory reset?",
+      "expectedSource": "D01",
+      "required": [
+        "hold the power button",
+        "back up files"
+      ],
+      "answer": "A frozen tablet needs a restart before a factory reset. Hold the power button to restart the tablet. Back up files and device settings before a factory reset. [D01]\n\nA frozen tablet needs a restart. [D05]",
+      "sources": [
+        {
+          "id": "D01",
+          "title": "Reset a tablet",
+          "score": 0.7448057453048769,
+          "terms": [
+            "factory",
+            "reset",
+            "frozen",
+            "restart",
+            "tablet"
+          ],
+          "evidence": "A frozen tablet needs a restart before a factory reset. Hold the power button to restart the tablet. Back up files and device settings before a factory reset."
+        },
+        {
+          "id": "D05",
+          "title": "Frozen screen recovery",
+          "score": 0.5453519348086879,
+          "terms": [
+            "frozen",
+            "factory",
+            "reset",
+            "restart",
+            "tablet"
+          ],
+          "evidence": "A frozen tablet needs a restart."
+        }
+      ],
+      "passed": true,
+      "grounded": true
+    },
+    {
+      "id": "C2",
+      "question": "How can I adapt a reading lesson with large text and audio?",
+      "expectedSource": "T02",
+      "required": [
+        "large text",
+        "pictures and audio"
+      ],
+      "answer": "Adapt the reading lesson using large text, pictures and audio. [T02]\n\nAdapt reading activities with large text and audio. [T06]",
+      "sources": [
+        {
+          "id": "T02",
+          "title": "Accessible reading",
+          "score": 0.5474759124428811,
+          "terms": [
+            "reading",
+            "large",
+            "text",
+            "audio",
+            "adapt"
+          ],
+          "evidence": "Adapt the reading lesson using large text, pictures and audio."
+        },
+        {
+          "id": "T06",
+          "title": "Reading adaptation",
+          "score": 0.532735575321203,
+          "terms": [
+            "reading",
+            "large",
+            "text",
+            "audio",
+            "adapt"
+          ],
+          "evidence": "Adapt reading activities with large text and audio."
+        }
+      ],
+      "passed": true,
+      "grounded": true
+    },
+    {
+      "id": "C3",
+      "question": "What approval and return records are needed for a device loan?",
+      "expectedSource": "G01",
+      "required": [
+        "requires approval",
+        "borrower",
+        "asset identifier",
+        "due date",
+        "return signature"
+      ],
+      "answer": "A device loan requires approval. The loan register records the borrower, asset identifier, due date and return signature. Staff must obtain approval before the device loan and maintain return records for custody verification. [G01]\n\nFor a loan return, authorized staff verify the borrower and asset identifier. [G05]",
+      "sources": [
+        {
+          "id": "G01",
+          "title": "Device loan policy",
+          "score": 0.7191684936419409,
+          "terms": [
+            "loan",
+            "return",
+            "approval",
+            "records",
+            "device"
+          ],
+          "evidence": "A device loan requires approval. The loan register records the borrower, asset identifier, due date and return signature. Staff must obtain approval before the device loan and maintain return records for custody verification."
+        },
+        {
+          "id": "G05",
+          "title": "Loan return procedure",
+          "score": 0.5323701868456991,
+          "terms": [
+            "return",
+            "loan",
+            "approval",
+            "records"
+          ],
+          "evidence": "For a loan return, authorized staff verify the borrower and asset identifier."
+        }
+      ],
+      "passed": true,
+      "grounded": true
+    },
+    {
+      "id": "C4",
+      "question": "When does payroll deposit employee salaries?",
+      "expectedSource": null,
+      "required": [],
+      "answer": "I could not find enough evidence in the LumenBridge documents to answer that. Try asking about device support, inclusive teaching, or governance.",
+      "sources": [],
+      "passed": true,
+      "grounded": true
+    }
+  ]
+}

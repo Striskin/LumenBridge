@@ -1,0 +1,25 @@
+LUMENBRIDGE | KNOWLEDGE MANAGEMENT PROTOTYPE
+Executed UTC: 2026-10-30T17:29:12.672799+00:00
+Python 3.12.10 | 18 synthetic documents | 12 train / 6 test
+Training vocabulary: 147 | Held-out accuracy: 1.000
+
+CLASSIFICATION (expected -> predicted)
+D05: Device Support -> Device Support
+D06: Device Support -> Device Support
+T05: Inclusive Teaching -> Inclusive Teaching
+T06: Inclusive Teaching -> Inclusive Teaching
+G05: Governance -> Governance
+G06: Governance -> Governance
+
+QUERY: How do I restart a frozen tablet before a factory reset?
+D01 | 0.7448 | Reset a tablet
+D05 | 0.5454 | Frozen screen recovery
+D06 | 0.1624 | Storage repair
+
+QUERY: What approval and return records are needed for a device loan?
+G01 | 0.7192 | Device loan policy
+G05 | 0.5324 | Loan return procedure
+G04 | 0.3264 | Inventory audit policy
+
+Unknown query qzxv blorf: []
+Blank classification: Unclassified

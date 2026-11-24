@@ -1,0 +1,182 @@
+[
+  {
+    "id": "D01",
+    "title": "Reset a tablet",
+    "category": "Device Support",
+    "owner": "Service Desk",
+    "version": "1.0",
+    "review_date": "2027-01-28",
+    "split": "train",
+    "text": "A frozen tablet needs a restart before a factory reset. Hold the power button to restart the tablet. Back up files and device settings before a factory reset. Record the repair in a support ticket."
+  },
+  {
+    "id": "D02",
+    "title": "Wireless connection",
+    "category": "Device Support",
+    "owner": "Service Desk",
+    "version": "1.0",
+    "review_date": "2027-01-28",
+    "split": "train",
+    "text": "Check the tablet wireless settings when a device cannot connect. Restart the wireless connection, confirm the network password and test the signal. Record the diagnosis and repair in a support ticket."
+  },
+  {
+    "id": "D03",
+    "title": "Application installation",
+    "category": "Device Support",
+    "owner": "Service Desk",
+    "version": "1.0",
+    "review_date": "2027-01-28",
+    "split": "train",
+    "text": "Install the approved application on the tablet. Check device storage, download the application package and verify the settings. Restart the device after installation. Record the technical repair in a support ticket."
+  },
+  {
+    "id": "D04",
+    "title": "Charging diagnostics",
+    "category": "Device Support",
+    "owner": "Service Desk",
+    "version": "1.0",
+    "review_date": "2027-01-28",
+    "split": "train",
+    "text": "Check the tablet charger, charging cable and power connection. Inspect the battery and test a replacement cable. Restart the device and record the diagnosis. A technician documents the repair in a support ticket."
+  },
+  {
+    "id": "D05",
+    "title": "Frozen screen recovery",
+    "category": "Device Support",
+    "owner": "Service Desk",
+    "version": "1.0",
+    "review_date": "2027-01-28",
+    "split": "test",
+    "text": "A frozen tablet needs a restart. Hold the power button, check the device settings and back up files before a factory reset. Record the repair in a support ticket."
+  },
+  {
+    "id": "D06",
+    "title": "Storage repair",
+    "category": "Device Support",
+    "owner": "Service Desk",
+    "version": "1.0",
+    "review_date": "2027-01-28",
+    "split": "test",
+    "text": "Check tablet storage when an application cannot install. Remove temporary files, check device settings and restart the tablet. Test the application after the repair and record the outcome in a support ticket."
+  },
+  {
+    "id": "T01",
+    "title": "Visual lesson planning",
+    "category": "Inclusive Teaching",
+    "owner": "Learning Design",
+    "version": "1.0",
+    "review_date": "2027-01-28",
+    "split": "train",
+    "text": "Design an inclusive lesson using picture cards, visual instructions and clear learning goals. A teacher offers learners several participation choices. Adapt each classroom activity to support communication and understanding."
+  },
+  {
+    "id": "T02",
+    "title": "Accessible reading",
+    "category": "Inclusive Teaching",
+    "owner": "Learning Design",
+    "version": "1.0",
+    "review_date": "2027-01-28",
+    "split": "train",
+    "text": "Adapt the reading lesson using large text, pictures and audio. The teacher checks learner understanding and offers communication choices. Record which accessible classroom activities support participation and learning."
+  },
+  {
+    "id": "T03",
+    "title": "Number learning activities",
+    "category": "Inclusive Teaching",
+    "owner": "Learning Design",
+    "version": "1.0",
+    "review_date": "2027-01-28",
+    "split": "train",
+    "text": "Plan a number lesson with visual examples and accessible counting activities. Teachers adapt classroom tasks to learner needs. Offer picture cards and participation choices, then observe understanding of the learning goal."
+  },
+  {
+    "id": "T04",
+    "title": "Communication choices",
+    "category": "Inclusive Teaching",
+    "owner": "Learning Design",
+    "version": "1.0",
+    "review_date": "2027-01-28",
+    "split": "train",
+    "text": "An inclusive classroom provides learners with communication choices. Teachers use pictures, audio and visual instructions during the lesson. Adapt the activity to support participation and check each learner understanding."
+  },
+  {
+    "id": "T05",
+    "title": "Picture-supported lesson",
+    "category": "Inclusive Teaching",
+    "owner": "Learning Design",
+    "version": "1.0",
+    "review_date": "2027-01-28",
+    "split": "test",
+    "text": "A teacher designs an inclusive lesson with picture cards and visual instructions. Offer learners communication choices during classroom activities. Adapt the learning task and check understanding through participation."
+  },
+  {
+    "id": "T06",
+    "title": "Reading adaptation",
+    "category": "Inclusive Teaching",
+    "owner": "Learning Design",
+    "version": "1.0",
+    "review_date": "2027-01-28",
+    "split": "test",
+    "text": "Adapt reading activities with large text and audio. A teacher supports learner participation using pictures and communication choices. Record classroom observations to improve the accessible lesson and learning goals."
+  },
+  {
+    "id": "G01",
+    "title": "Device loan policy",
+    "category": "Governance",
+    "owner": "Compliance",
+    "version": "1.0",
+    "review_date": "2027-01-28",
+    "split": "train",
+    "text": "A device loan requires approval. The loan register records the borrower, asset identifier, due date and return signature. Staff must obtain approval before the device loan and maintain return records for custody verification."
+  },
+  {
+    "id": "G02",
+    "title": "Privacy policy",
+    "category": "Governance",
+    "owner": "Compliance",
+    "version": "1.0",
+    "review_date": "2027-01-28",
+    "split": "train",
+    "text": "The privacy policy protects learner personal data. Authorized staff control access to records, document retention requirements and review consent. Compliance checks approval, permitted access and secure deletion of expired records."
+  },
+  {
+    "id": "G03",
+    "title": "Access review policy",
+    "category": "Governance",
+    "owner": "Compliance",
+    "version": "1.0",
+    "review_date": "2027-01-28",
+    "split": "train",
+    "text": "Compliance reviews staff access to organizational records. Each access request requires approval from an authorized owner. The policy records permissions and review dates. Remove expired access and document the approval decision."
+  },
+  {
+    "id": "G04",
+    "title": "Inventory audit policy",
+    "category": "Governance",
+    "owner": "Compliance",
+    "version": "1.0",
+    "review_date": "2027-01-28",
+    "split": "train",
+    "text": "The inventory audit policy checks asset custody and loan records. Compliance verifies approval, asset identifiers and return signatures against the register. Staff document missing records and retain the audit evidence according to policy."
+  },
+  {
+    "id": "G05",
+    "title": "Loan return procedure",
+    "category": "Governance",
+    "owner": "Compliance",
+    "version": "1.0",
+    "review_date": "2027-01-28",
+    "split": "test",
+    "text": "For a loan return, authorized staff verify the borrower and asset identifier. Check the due date and record the return signature in the loan register. Retain approval records and confirm custody according to policy."
+  },
+  {
+    "id": "G06",
+    "title": "Personal data retention",
+    "category": "Governance",
+    "owner": "Compliance",
+    "version": "1.0",
+    "review_date": "2027-01-28",
+    "split": "test",
+    "text": "The privacy policy requires a retention review of learner personal data. Authorized staff verify consent and access approval. Record secure deletion of expired records and retain compliance evidence according to the retention policy."
+  }
+]

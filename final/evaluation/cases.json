@@ -1,0 +1,16 @@
+{
+  "recommendations": [
+    {"id":"R1","seed":"D01","context":"frozen tablet restart and factory reset","relevant":["D05"]},
+    {"id":"R2","seed":"T02","context":"large text and audio for accessible reading","relevant":["T06","T04"]},
+    {"id":"R3","seed":"G01","context":"loan approval and return signature","relevant":["G04","G05"]},
+    {"id":"R4","seed":"G02","context":"expired records and access approval","relevant":["G03","G06"]},
+    {"id":"R5","seed":"D03","context":"application cannot install because storage is full","relevant":["D06"]},
+    {"id":"R6","seed":"T01","context":"","relevant":["T03","T05"]}
+  ],
+  "chatbot": [
+    {"id":"C1","question":"How do I restart a frozen tablet before a factory reset?","expectedSource":"D01","required":["hold the power button","back up files"]},
+    {"id":"C2","question":"How can I adapt a reading lesson with large text and audio?","expectedSource":"T02","required":["large text","pictures and audio"]},
+    {"id":"C3","question":"What approval and return records are needed for a device loan?","expectedSource":"G01","required":["requires approval","borrower","asset identifier","due date","return signature"]},
+    {"id":"C4","question":"When does payroll deposit employee salaries?","expectedSource":null,"required":[]}
+  ]
+}

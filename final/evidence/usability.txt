@@ -1,0 +1,8 @@
+Local desktop Chromium walkthrough. This was a developer check, with no participant panel or satisfaction survey.
+
+PASS | Select the held-out recovery note, read Device Support, and open its category.
+PASS | Ask the loan question, read the cited answer, and open its G01 source.
+PASS | Edit context, read the document and context cosine scores, and open top-ranked G05.
+PASS | Move from G05 to Device loan with the keyboard, then select G01 in the focus menu.
+
+The four screenshots were captured during this walkthrough. Full recommendation and chatbot test outputs are in evaluation.json.

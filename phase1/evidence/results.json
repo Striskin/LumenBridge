@@ -1,0 +1,149 @@
+{
+  "executed_utc": "2026-10-30T17:29:12.672799+00:00",
+  "python": "3.12.10",
+  "document_count": 18,
+  "train_count": 12,
+  "test_count": 6,
+  "training_vocabulary_size": 147,
+  "accuracy": 1.0,
+  "classification": [
+    {
+      "id": "D05",
+      "title": "Frozen screen recovery",
+      "text": "A frozen tablet needs a restart. Hold the power button, check the device settings and back up files before a factory reset. Record the repair in a support ticket.",
+      "expected": "Device Support",
+      "predicted": "Device Support"
+    },
+    {
+      "id": "D06",
+      "title": "Storage repair",
+      "text": "Check tablet storage when an application cannot install. Remove temporary files, check device settings and restart the tablet. Test the application after the repair and record the outcome in a support ticket.",
+      "expected": "Device Support",
+      "predicted": "Device Support"
+    },
+    {
+      "id": "T05",
+      "title": "Picture-supported lesson",
+      "text": "A teacher designs an inclusive lesson with picture cards and visual instructions. Offer learners communication choices during classroom activities. Adapt the learning task and check understanding through participation.",
+      "expected": "Inclusive Teaching",
+      "predicted": "Inclusive Teaching"
+    },
+    {
+      "id": "T06",
+      "title": "Reading adaptation",
+      "text": "Adapt reading activities with large text and audio. A teacher supports learner participation using pictures and communication choices. Record classroom observations to improve the accessible lesson and learning goals.",
+      "expected": "Inclusive Teaching",
+      "predicted": "Inclusive Teaching"
+    },
+    {
+      "id": "G05",
+      "title": "Loan return procedure",
+      "text": "For a loan return, authorized staff verify the borrower and asset identifier. Check the due date and record the return signature in the loan register. Retain approval records and confirm custody according to policy.",
+      "expected": "Governance",
+      "predicted": "Governance"
+    },
+    {
+      "id": "G06",
+      "title": "Personal data retention",
+      "text": "The privacy policy requires a retention review of learner personal data. Authorized staff verify consent and access approval. Record secure deletion of expired records and retain compliance evidence according to the retention policy.",
+      "expected": "Governance",
+      "predicted": "Governance"
+    }
+  ],
+  "confusion_matrix": {
+    "Device Support": {
+      "Device Support": 2,
+      "Governance": 0,
+      "Inclusive Teaching": 0
+    },
+    "Governance": {
+      "Device Support": 0,
+      "Governance": 2,
+      "Inclusive Teaching": 0
+    },
+    "Inclusive Teaching": {
+      "Device Support": 0,
+      "Governance": 0,
+      "Inclusive Teaching": 2
+    }
+  },
+  "searches": [
+    {
+      "query": "How do I restart a frozen tablet before a factory reset?",
+      "results": [
+        {
+          "id": "D01",
+          "title": "Reset a tablet",
+          "category": "Device Support",
+          "score": 0.7448057453048769
+        },
+        {
+          "id": "D05",
+          "title": "Frozen screen recovery",
+          "category": "Device Support",
+          "score": 0.5453519348086879
+        },
+        {
+          "id": "D06",
+          "title": "Storage repair",
+          "category": "Device Support",
+          "score": 0.16241782226431917
+        }
+      ]
+    },
+    {
+      "query": "What approval and return records are needed for a device loan?",
+      "results": [
+        {
+          "id": "G01",
+          "title": "Device loan policy",
+          "category": "Governance",
+          "score": 0.7191684936419409
+        },
+        {
+          "id": "G05",
+          "title": "Loan return procedure",
+          "category": "Governance",
+          "score": 0.5323701868456991
+        },
+        {
+          "id": "G04",
+          "title": "Inventory audit policy",
+          "category": "Governance",
+          "score": 0.3263842804362948
+        }
+      ]
+    }
+  ],
+  "unknown_query_results": [],
+  "blank_classification": "Unclassified",
+  "sha256": {
+    "data/documents/D01.txt": "3e494e6083b807752f00eb3fd79d52603f6547d70ba322d44a0e6c92333494c1",
+    "data/documents/D02.txt": "d36f444e9cb69130f3b17d564ee291ebda7b063695ae86c5a31b8f2d11103808",
+    "data/documents/D03.txt": "ff2e3d763d873fc7533adc509536694295ffb36ece95cd73cdf8ce7a8aa99ca1",
+    "data/documents/D04.txt": "c7a0fcf4a6c0efbaf799f1c12091ed70e58aa722f90037952cf7853555a57622",
+    "data/documents/D05.txt": "fdb3bb0bc29c8764c6744cc85b9a0641e83b197eb363128fb2ce2c1f8a10b5d2",
+    "data/documents/D06.txt": "bdfbc421cbef2403e388be80dda61ec4bdb010637ceb69d108e74f36bcb1d1ac",
+    "data/documents/G01.txt": "47dd5fee7efbb0d7c467f96706a0a5a0d156c7589e39ab6fd24eaefea9ee7b52",
+    "data/documents/G02.txt": "0972146297bf8592ab5fd7508a554e1a26edbc430ab4943fc5224472593bb8fd",
+    "data/documents/G03.txt": "e17c98315523c6214078ff9f9a875f76b4485378d650c0edecac611099b48f4d",
+    "data/documents/G04.txt": "2b3241d7d2d4dad1cd8cd158d40bff39692b29c41fc3f0e42e3575504f572ef6",
+    "data/documents/G05.txt": "4d961f7fa1a3e06ebe34118147c850510a8083d0ada94d1713e54a6cc97f96b1",
+    "data/documents/G06.txt": "a32da5f1874a573a37b637791b4a065d60cdff3f038fa261fd219643ef8bcbfc",
+    "data/documents/T01.txt": "3ded33cd5c1f7b2a6e072dce5f0bb05287fffd4f8beac6c97e4846dd67675075",
+    "data/documents/T02.txt": "9e6062ce102860ea6b36828eb0adce99e7988e33f37abf2a14790b9c612c7a5b",
+    "data/documents/T03.txt": "82f929da671b75622faeb45bd24c6efde20ca9bd8026cbbdf1f05f875d249063",
+    "data/documents/T04.txt": "d0ea27d168126c0377f8b6a0e4d1c8a93020ac86885f0477106bc43660913b9d",
+    "data/documents/T05.txt": "88988cf171f4eaa83622e56b353d6919323a8380b918dd06f70c4c388146ccd4",
+    "data/documents/T06.txt": "98f4f3caeae81546138e30775eb97252fd11bb92513eefe2db809c3fb488f523",
+    "data/manifest.json": "c7985edd7c03c68b43327c92f9ee8791b5ac7b7d4b30af15fe69a5143240622d",
+    "main.py": "d3d3bf0c845ce53635517bb5bcd3049dc7148d6b0ed6edcc543100a603457ae4",
+    "practice.py": "178fda07314b08ef508abc8f74707bb04fe28b8cff7a66fe8ba575f041226060",
+    "src/__init__.py": "162e935fe00549960e75541818096f7c1eda00d3343a5d881f6af531c19a8480",
+    "src/classification.py": "30f918e020fd1ffea60d1403d5b318780402b92590bf4fe1c923f5f2d6751bf6",
+    "src/corpus.py": "a338dd2874c4171c6bdec7f24442611122389c295174fc623b3fd2aa33a81c49",
+    "src/search.py": "d289ec4809b07666a369f60c5672530b3f8995f9b2767404e14a6f16acf602e7",
+    "src/vectorizer.py": "b4feedbf9aabd74dc25555464b08685ea537894cbfc772fed4278e8d61d70d8c",
+    "tests/test_system.py": "892ffe4b04c54577eae40d24a0f29921c3ab8bb4141425ccd77a64dc7dd402fc"
+  }
+}

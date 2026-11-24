@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<title>LumenBridge Knowledge System</title>
+<link rel="stylesheet" href="./style.css">
+<script type="module" src="./app.mjs"></script>
+</head>
+<body>
+<aside class="rail">
+  <a class="brand" href="#assistant"><span class="mark">LB</span><span>LumenBridge<small>Knowledge System</small></span></a>
+  <nav aria-label="Knowledge tools">
+    <a href="#assistant">Ask the assistant</a>
+    <a href="#documents">Browse documents</a>
+    <a href="#classify">Classify a document</a>
+    <a href="#graph">Explore the graph</a>
+  </nav>
+  <div class="rail-foot">MAPS final project<br>Fictional company · 18 sample documents</div>
+</aside>
+<main id="main">
+  <header class="top"><span>KNOWLEDGE WORKSPACE</span><span id="status" role="status">Loading sample repository</span></header>
+  <section id="view" aria-busy="true"></section>
+</main>
+</body>
+</html>

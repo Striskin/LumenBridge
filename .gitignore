@@ -1,0 +1,36 @@
+# Python caches, environments, and build output
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Jupyter and frontend dependencies
+.ipynb_checkpoints/
+node_modules/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+*.pfx
+*.p12
+.npmrc
+
+# Editors and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+~$*

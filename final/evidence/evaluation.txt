@@ -1,0 +1,23 @@
+{
+  "trainingDocuments": 12,
+  "testDocuments": 6,
+  "accuracy": 1,
+  "macroPrecision": 1,
+  "macroRecall": 1,
+  "recommendationPrecisionAt3": 0.5,
+  "recommendationRecallAt3": 0.9166666666666666,
+  "recommendationHitsAt3": 6,
+  "chatPasses": 4,
+  "graphNodes": 29,
+  "graphEdges": 65
+}
+R1 D05 0.817 | D06 0.258 | D03 0.203 expected: D05
+R2 T06 0.667 | T04 0.306 | T01 0.285 expected: T06 T04
+R3 G05 0.680 | G04 0.317 | G03 0.159 expected: G04 G05
+R4 G06 0.588 | G03 0.526 | G04 0.218 expected: G03 G06
+R5 D06 0.590 | D05 0.190 | D02 0.188 expected: D06
+R6 T05 0.548 | T04 0.539 | T02 0.407 expected: T03 T05
+C1 PASS A frozen tablet needs a restart before a factory reset. Hold the power button to restart the tablet. Back up files and device settings before a factory reset. [D01] A frozen tablet needs a restart. [D05]
+C2 PASS Adapt the reading lesson using large text, pictures and audio. [T02] Adapt reading activities with large text and audio. [T06]
+C3 PASS A device loan requires approval. The loan register records the borrower, asset identifier, due date and return signature. Staff must obtain approval before the device loan and maintain return records for custody verification. [G01] For a loan return, authorized staff verify the borrower and asset identifier. [G05]
+C4 PASS I could not find enough evidence in the LumenBridge documents to answer that. Try asking about device support, inclusive teaching, or governance.
